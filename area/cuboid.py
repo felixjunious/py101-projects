@@ -1,0 +1,5 @@
+length = float(input('Enter length : '))
+breadth = float(input('Enter breadth : '))
+height = float(input('Enter height : '))
+area = 2 * (length * breadth + length * height + breadth * height)
+print('Total Surface Area is', area)
